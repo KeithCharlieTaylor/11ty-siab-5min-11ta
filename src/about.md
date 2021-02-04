@@ -55,7 +55,8 @@ Assumptions that I'm trying out based on one or both of:
 <dt id="images">The best way to include Images in 11ta</dt><dd>I'm assuming my standard 640x400 is good here. Also assuming I should keep them in `/src/assets/images/`. At this stage, I can't see any advantage to subfolders. Except to keep site images in `/src/assets/images/branding/`. I'll explore this more when I review /2020/09/06/featured-post-images/ in more detail. Especially to review workflow with respect to naming, renaming, and captioning.</dd>
 <dt id=""></dt><dd></dd>
 </dl>
-![What is Learning 11ta all about?](/src/assets/images/branding/what-is-11ta-all-about-media.webp)
+![What is Learning 11ta all about?](/assets/images/branding/what-is-11ta-all-about-media.webp)
+
 ## Learning 11ta Navigation
 I intend to use tags for:
 - Fact pages (until they become common enough to warrant a summary section)
@@ -63,4 +64,4 @@ I intend to use tags for:
 - FAQs (from my questions and from analytics)
 
 ___
-Leave About Learning 11ta to read [Learning 11ta home page](https://kct-learning-11ta.netlify.app/).
+Leave About Learning 11ta to read [Learning 11ta home page](/).
