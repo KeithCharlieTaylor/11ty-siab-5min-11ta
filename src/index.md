@@ -43,6 +43,70 @@ heroSettings:
       - home/9.jpg
 ---
 
+## Welcome to Learning 11ta
+As I develop this website from Shane Robinson's starter template I will document my changes as I go.
+
+My first changes are:
+1. The About Page
+1. This note
+1. Update the site settings
+
+Though I need to learn more about some of the site settings, I will note my changes here for now. Because I intend to return to this topic in a later post.
+Original Settings:
+```javascript
+module.exports = {
+	siteURL: process.env.URL || 'http://localhost:8080',
+	siteName: "Shane Robinson's 11ty | TailwindCSS | Alpine.js Template",
+	siteDescription:
+		'A highly configurable 11ty template to quickly spin up a fully functional website with TailwindCSS and Alpine.js baked in.',
+	siteImage: '/assets/images/site/default.png',
+	lang: 'en',
+	locale: 'en_us',
+	authorName: 'Shane Robinson',
+	authorURL: 'shane-robinson',
+	authorEmail: 'shane@shanerobinson.com',
+	twitterSite: '@shanerobinson',
+	twitterCreator: '@shanerobinson',
+	address: {
+		street: '123 Main Street',
+		city: 'Anytown',
+		state: 'KZ',
+		zip: '54321',
+		phoneDisplay: '+1 (123) 456-7890',
+		phoneCall: '+11234567890',
+		email: 'hello@domain.com',
+	},
+}
+```
+My Changes:
+```javascript
+module.exports = {
+	siteURL: process.env.URL || 'https://kct-learning-11ta.netlify.app/',
+	siteName: "Learning 11ta",
+	siteDescription:
+		'Learning to configure the 11ty template with TailwindCSS and Alpine.js baked in by Shane Robinson.',
+	siteImage: '/assets/images/branding/what-is-11ta-all-about-media.webp',
+	lang: 'en',
+	locale: 'en_us',
+	authorName: 'Keith Taylor',
+	authorURL: 'keith-taylor',
+	authorEmail: 'support@keechatay.freshdesk.com',
+	twitterSite: '@KeithTaylor',
+	twitterCreator: '@KeithTaylor',
+	address: {
+		street: '123 Main Street',
+		city: 'Anytown',
+		state: 'KZ',
+		zip: '54321',
+		phoneDisplay: '+1 (123) 456-7890',
+		phoneCall: '+11234567890',
+		email: 'hello@domain.com',
+	},
+}
+```
+
+For the moment, I retain the original home page text below. Also, I've retained the original blog posts. Which I will review in turn.
+___
 We set out to build a starter project template for [11ty](https://11ty.dev '11ty Static Site Generator') that has [TailwindCSS](https://tailwindcss.com 'TailwindCSS Utility-First CSS Framework') and [Alpine.js](https://github.com/alpinejs/alpine 'Alpine.js : Think of it like Tailwind for JavaScript') baked in.
 
 Version 1.0.0 morphed into a fully-configurable text-based CMS for managing small websites with easy-to-manage configuration files in the `/src/_data` directory.
