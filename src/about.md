@@ -1,47 +1,66 @@
 ---
 title: About Title # will be overwritten by SEO.title below
-date: 2020-08-05
+date: 2021-02-04
 layout: page
 eleventyNavigation:
   key: main
   title: About # as it will appear in the nav
   order: 2 # order to display in the nav
 seo:
-  title: About Us # overrides 'title' above on both Page and META
+  title: About Learning 11ta # overrides 'title' above on both Page and META
   description:
-  image:
+  image: branding/what-is-11ta-all-about-media.webp
+images: # relative to /src/assets/images/
+  feature: branding/what-is-11ta-all-about-media.webp
+  thumb: branding/what-is-11ta-all-about-media.webp
 ---
 
-{% wrap "bg-red-100 mt-4 border border-red-300 rounded-lg underline" %}
+## About Learning 11ta Introduction
+_About Learning 11ta_ tells you why I am creating this website and how you can get the most from it. So it describes _Learning 11ta_ site. But it deliberately tells you very little about actually learning 11ta. Because that is in the rest of the website.
 
-Text courtesy [Fillerama.io](http://fillerama.io/)
+In WordPress I would have an 'About Site' page with sub-pages for Purpose, Privacy, Terms, Contact, Navigation, Notifications and any other 'admin pages'.
 
-{% endwrap %}
+In a learning project such as this, I would often include a Roadmap. Which I will add later. But for now, I'll use the Roadmap Section below.
 
-## I hear the jury's still out on science.
+## About Learning 11ta
+This is my site for learning how to adapt, use and understand 11ta - [Shane Robinson's 11ty | TailwindCSS | Alpine.js Template](https://github.com/11ta/11ta-template/). So I have lots to learn about Eleventy, Tailwind, and Alpine. Furthermore, I want to integrate Speedlify and I know little about GitHub, Netlify, or Javascript. Which is why I'm prepared yo start anew if I realize this is a bad way to start.
 
-Guy's a pro. It's a hug, Michael. I'm hugging you. Michael! I care deeply for nature. That's what it said on 'Ask Jeeves.' Across from where?
+I'm hoping to have transferred at least one website from WordPress by the end of February 2021. Because I need the speed benefits ASAP. Also, I want to change my WordPress hosting contract before January 2022. 
 
-No, I did not kill Kitty. However, I am going to oblige and answer the nice officer's questions because I am an honest man with no secrets to hide. **Not tricks, Michael, illusions.** _Really?_ Did nothing cancel?
+One solution would be to document all the features I need then research how to provide an appropriate Eleventy configuration. But I'm overwhelmed by the choices. So I need to see how different features work in practice. Then I can understand if there is a better starting point. Afterall, it's taken me many months of dabbling to assume that Eleventy is the best choice for me. Therefore, I will do the research as I progress here.
 
-## There's so many poorly chosen words in that sentence.
+## Learning 11ta Roadmap
 
-No! I was ashamed to be SEEN with you. I like being with you. That's why you always leave a note! It's called 'taking advantage.' It's what gets you ahead in life. Steve Holt!
+### Learning Facts About 11ta and its Dependencies
+Learn about:
+1. 11ty Advantages Summary
+1. TailwindCSS
+1. Alpine.js
+1. Speedlify
 
-1. Michael!
-2. What's Spanish for "I know you speak English?"
-3. What's Spanish for "I know you speak English?"
+### Questions About 11ta and its Dependencies
+As my questions arise, I note them here. Then link out to an answer or to a tag for research.
++ How can I track simple analytics to give me referrer, page hits, time on page, time on site.
++ Is Google search still the best option after WordPress? Or is there a better service for Jamstack sites?
++ How can I retain original posting date but display in revision date order?
 
-### No… but I'd like to be asked!
+### Experiences About 11ta and its Dependencies
+Could be the start of a changelog?
 
-I don't understand the question, and I won't respond to it. Oh, you're gonna be in a coma, all right. I don't criticize you! And if you're worried about criticism, sometimes a diet is the best defense.
+### Opinions About 11ta and its Dependencies
+Assumptions that I'm trying out based on one or both of:
+1. I can't find a definitive answer.
+1. I couldn't be bothered looking for an answer so I'll suck it and see.
+<dl id="">
+<dt id="images">The best way to include Images in 11ta</dt><dd>I'm assuming my standard 640x400 is good here. Also assuming I should keep them in `/src/assets/images/`. At this stage, I can't see any advantage to subfolders. Except to keep site images in `/src/assets/images/branding/`. I'll explore this more when I review /2020/09/06/featured-post-images/ in more detail. Especially to review workflow with respect to naming, renaming, and captioning.</dd>
+<dt id=""></dt><dd></dd>
+</dl>
+![What is Learning 11ta all about?](/src/assets/images/branding/what-is-11ta-all-about-media.webp)
+## Learning 11ta Navigation
+I intend to use tags for:
+- Fact pages (until they become common enough to warrant a summary section)
+- Important relationships between facts (determined from analytics)
+- FAQs (from my questions and from analytics)
 
-- No… but I'd like to be asked!
-- Guy's a pro.
-- Well, what do you expect, mother?
-
-That's what it said on 'Ask Jeeves.' I hear the jury's still out on science. It's called 'taking advantage.' It's what gets you ahead in life. Say goodbye to these, because it's the last time! Marry me.
-
-No! I was ashamed to be SEEN with you. I like being with you. Well, what do you expect, mother? But I bought a yearbook ad from you, doesn't that mean anything anymore? Say goodbye to these, because it's the last time!
-
-No! I was ashamed to be SEEN with you. I like being with you. First place chick is hot, but has an attitude, doesn't date magicians. No… but I'd like to be asked! I care deeply for nature.
+___
+Leave About Learning 11ta to read [Learning 11ta home page](https://kct-learning-11ta.netlify.app/).

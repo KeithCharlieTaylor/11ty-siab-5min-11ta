@@ -1,3 +1,7 @@
+# 5 minute install version of 11ta template
+
+I set out to customize the 11ta template to give myself an "installation routine" to match my WordPress workflow. But I realized I don't know enough about any aspect of this. So I'll start this as a training exercise. With the aim of clarifying my options. Then I'll either start a new project to give me a practical site starter tool. Or I'll make this useful and then amend this readme to suit. In the meantime, I'll leave the original readme below...
+
 # 11TA - 11ty, TailwindCSS, & Alpine.js Template
 
 > **UPDATE v2.0.0 - Breaking Changes**
