@@ -56,7 +56,7 @@ Assumptions that I'm trying out based on one or both of:
 <dt id=""></dt><dd></dd>
 </dl>
 
-![What is Learning 11ta all about?](branding/what-is-11ta-all-about-media.webp)
+![What is Learning 11ta all about?](/assets/images/branding/what-is-11ta-all-about-media.webp)
 
 ## Learning 11ta Navigation
 I intend to use tags for:
