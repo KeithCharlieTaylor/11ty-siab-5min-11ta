@@ -55,6 +55,7 @@ Assumptions that I'm trying out based on one or both of:
 <dt id="images">The best way to include Images in 11ta</dt><dd>I'm assuming my standard 640x400 is good here. Also assuming I should keep them in `/src/assets/images/`. At this stage, I can't see any advantage to subfolders. Except to keep site images in `/src/assets/images/branding/`. I'll explore this more when I review /2020/09/06/featured-post-images/ in more detail. Especially to review workflow with respect to naming, renaming, and captioning.</dd>
 <dt id=""></dt><dd></dd>
 </dl>
+
 ![What is Learning 11ta all about?](branding/what-is-11ta-all-about-media.webp)
 
 ## Learning 11ta Navigation
