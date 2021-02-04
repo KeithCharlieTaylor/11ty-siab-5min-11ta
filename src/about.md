@@ -1,6 +1,6 @@
 ---
 title: About Title # will be overwritten by SEO.title below
-date: 2020-08-05
+date: 2021-02-04
 layout: page
 eleventyNavigation:
   key: main
@@ -42,6 +42,7 @@ Learn about:
 As my questions arise, I note them here. Then link out to an answer or to a tag for research.
 + How can I track simple analytics to give me referrer, page hits, time on page, time on site.
 + Is Google search still the best option after WordPress? Or is there a better service for Jamstack sites?
++ How can I retain original posting date but display in revision date order?
 
 ### Experiences About 11ta and its Dependencies
 Could be the start of a changelog?
